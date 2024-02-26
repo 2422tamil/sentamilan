@@ -1,0 +1,70 @@
+/* Home.css */
+
+.home {
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  color: white;
+  position: relative;
+  overflow: hidden; /* Hide overflow to prevent text from wrapping */
+  background-image: url(images/black\ mat.jpg); /* Add your image path here */
+  background-size: cover; /* Cover the entire header with the background image */
+  background-position: center; /* Center the background image */
+  height: 600px; 
+  /* Adjust the height of the header */
+  font-style: italic;
+}
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-size: 50px;
+  color: white;
+  animation: moveText 10s linear infinite;
+  font-family: 'Arial', sans-serif; /* Change the font family here */
+}
+
+
+
+
+@keyframes moveText {
+  0% {
+    transform: translateX(100%);
+    /*Startposition-outsideofthescreen*/-webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+}
+  100% {
+    transform: translateX(-140%);
+    /*Finalposition-outsideofthescreen*/-webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-140%);
+    -ms-transform: translateX(-140%);
+    -o-transform: translateX(-140%);
+    -webkit-transform: translateX(-140%);
+}
+}
+
+header h1 span {
+  display: inline-block; /* Make each word a block element */
+  margin: 0 5px; /* Add some space between words */
+}
+
+main {
+  padding: 20px;
+  color: #333; /* Text color */
+}
+
+footer {
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}

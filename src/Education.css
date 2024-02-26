@@ -1,0 +1,56 @@
+.education-container {
+  background-color: whitesmoke;
+  padding: 50px;
+  font-style: italic;
+  font-size: larger;
+}
+
+.education-heading {
+  color: #333;
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  transition: text-decoration 0.5s ease;
+  -webkit-transition: text-decoration 0.5s ease;
+  -moz-transition: text-decoration 0.5s ease;
+  -ms-transition: text-decoration 0.5s ease;
+  -o-transition: text-decoration 0.5s ease;
+}
+
+.education-heading:hover {
+  text-decoration: underline; /* Apply underline effect on hover */
+}
+
+.education-item {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.5s ease;
+  
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -ms-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+}
+
+.education-item:hover,
+.education-item:active {
+  background-color: lightblue; /* Change background color on hover or touch */
+}
+
+.education-item h3 {
+  color: blue;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.education-item p {
+  color: #666;
+  margin: 10px 0;
+}

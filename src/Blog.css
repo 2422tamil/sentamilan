@@ -1,0 +1,47 @@
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .blog-post {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .blog-post p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .back-to-top {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .back-to-top:hover {
+    text-decoration: underline;
+  }
+  
+  /* Smooth scrolling behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+  

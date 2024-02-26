@@ -1,0 +1,26 @@
+.location-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.location-info {
+  margin-top: 10px;
+}
+
+.location-info p {
+  margin: 5px 0;
+}
+
+.map-link {
+  display: block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: none;
+}
+
+.map-link:hover {
+  text-decoration: underline;
+}
